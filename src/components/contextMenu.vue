@@ -53,7 +53,7 @@ export default {
                     menu.style.display = 'block';
                     menu.style.left = x + 'px';
                     menu.style.top = y + 'px';
-                    document.addEventListener('mouseup', function () {
+                    document.addEventListener('click', function () {
                         menu.style.display = 'none'
                     }, false);
             }
